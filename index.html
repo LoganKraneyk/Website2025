@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of Logan Kraneyk: work, projects, and contact information.">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>logankraneyk.com</title>
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="./styles.css">
+
+    <meta property="og:title" content="Logan Kraneyk — Portfolio">
+    <meta property="og:description" content="Selected work, projects, and ways to get in touch.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:image" content="/og-image.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Logan Kraneyk — Portfolio">
+    <meta name="twitter:description" content="Selected work, projects, and ways to get in touch.">
+    <meta name="twitter:image" content="/og-image.png">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" role="banner">
+        <div class="container">
+            <h1>Logan Kraneyk</h1>
+            <nav class="site-nav" aria-label="Primary">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="site-main" tabindex="-1">
+        <section id="home" class="section">
+            <div class="container">
+                <h2>IT Technician from Niagara, Ontario.</h2>
+                <div class="hero-intro" style="display:flex; gap:1.25rem; align-items:center; flex-wrap:wrap;">
+                    <div class="portrait-upload">
+                        <div class="portrait-frame" style="width:120px; height:120px;">
+                            <img src="assets/LoganProfessionalPhoto.png" alt="Portrait of Logan Kraneyk" />
+                        </div>
+                    </div>
+                    <div style="display:flex; flex-direction:column; gap:0.5rem;">
+                        <p style="margin:0;">2023 Graduate from Niagara College with a passion for all things technology.</p>
+                        <p style="margin:0;">Currently an IT Technician at B4 Networks.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects.</h2>
+                <div style="display:grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; margin-top: 1rem;">
+                    <article style="background: var(--panel); border: var(--thick) solid var(--border); box-shadow: var(--shadow); padding: 1rem;">
+                        <h3 style="font-size:1.125rem;">Community Gaming Servers</h3>
+                        <p class="muted">Administering publicly accessible gaming servers and communities.<br><br>For privacy reasons, I will not be sharing the details of the servers here.</p>
+                    </article>
+                    <article style="background: var(--panel); border: var(--thick) solid var(--border); box-shadow: var(--shadow); padding: 1rem;">
+                        <h3 style="font-size:1.125rem;">This Website</h3>
+                        <p class="muted">My personal website, built with HTML, CSS, and JavaScript.</p>
+                        <div style="display:flex; gap:0.75rem; margin-top:0.75rem;">
+                            <a href="https://logankraneyk.com" target="_blank" rel="noopener"><button type="button">Live</button></a>
+                            <a href="https://github.com/logankraneyk/website2025" target="_blank" rel="noopener"><button type="button">Code</button></a>
+                        </div>
+                    </article>
+                    <article style="background: var(--panel); border: var(--thick) solid var(--border); box-shadow: var(--shadow); padding: 1rem;">
+                        <h3 style="font-size:1.125rem;">Coming Soon</h3>
+                        <p class="muted">I'm always working on something new, but it's not always completed.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="section">
+            <div class="container">
+                <h2>Resume.</h2>
+                <p>Please click the button below to view my resume.</p>
+                <a href="assets/LoganKraneykResume.pdf" target="_blank" rel="noopener"><button type="button">Resume</button></a>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact.</h2>
+                <p>Email: <a href="mailto:hey@logan.fun">hey@logan.fun</a></p>
+                <p style="margin-top:0.5rem;">Social: <a href="https://github.com/logankraneyk">GitHub</a> · <a href="https://www.linkedin.com/in/logankraneyk/">LinkedIn</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Logan Kraneyk. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <noscript>
+        <div class="noscript-notice">This site works best with JavaScript enabled.</div>
+    </noscript>
+
+    <script src="./script.js" defer></script>
+</body>
+</html>
+
+
